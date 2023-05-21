@@ -1,10 +1,10 @@
 Pod::Spec.new do |s|
   s.name          = 'PINOperation'
   s.version       = '1.3.0'
-  s.homepage      = 'https://github.com/pinterest/PINOperation'
+  s.homepage      = 'https://github.com/Zandor300/ZSPINOperation'
   s.summary       = 'Fast, concurrency-limited task queue for iOS and OS X.'
-  s.authors       = { 'Garrett Moon' => 'garrett@pinterest.com' }
-  s.source        = { :git => 'https://github.com/pinterest/PINOperation.git', :tag => "#{s.version}" }
+  s.authors       = { 'Zandor Smith' => 'info@zsinfo.nl' }
+  s.source        = { :git => 'https://github.com/Zandor300/ZSPINOperation.git', :tag => "#{s.version}" }
   s.license       = { :type => 'Apache 2.0', :file => 'LICENSE.txt' }
   s.requires_arc  = true
   s.frameworks    = 'Foundation'
