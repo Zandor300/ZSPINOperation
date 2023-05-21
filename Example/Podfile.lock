@@ -1,16 +1,16 @@
 PODS:
-  - PINOperation (1.3.0)
+  - ZSPINOperation (1.3.1)
 
 DEPENDENCIES:
-  - PINOperation (from `../`)
+  - ZSPINOperation (from `../`)
 
 EXTERNAL SOURCES:
-  PINOperation:
+  ZSPINOperation:
     :path: "../"
 
 SPEC CHECKSUMS:
-  PINOperation: 9e0953c52dc08569c0358c59a3868d30cac98681
+  ZSPINOperation: 988f490c06b840ee8992d59be4e0ec37c10052c0
 
-PODFILE CHECKSUM: b26206dba7176e074020d8f3dbc62ddfac6d4b91
+PODFILE CHECKSUM: fec1a0fa68c127ee53c34b865065bfa6becdabf4
 
 COCOAPODS: 1.12.1

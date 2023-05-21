@@ -2,5 +2,5 @@ source 'https://cdn.cocoapods.org/'
 platform :ios, '11.0'
 
 target 'PINOperationExample' do
-  pod 'PINOperation', :path => '../'
+  pod 'ZSPINOperation', :path => '../'
 end
