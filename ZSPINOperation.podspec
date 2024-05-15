@@ -1,6 +1,6 @@
 Pod::Spec.new do |s|
   s.name          = 'ZSPINOperation'
-  s.version       = '1.3.2'
+  s.version       = '1.3.3'
   s.homepage      = 'https://github.com/Zandor300/ZSPINOperation'
   s.summary       = 'Fast, concurrency-limited task queue for iOS and OS X.'
   s.authors       = { 'Zandor Smith' => 'info@zsinfo.nl' }
