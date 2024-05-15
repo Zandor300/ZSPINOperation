@@ -1,4 +1,4 @@
-PLATFORM="platform=iOS Simulator,name=iPhone 13"
+PLATFORM="platform=iOS Simulator,name=iPhone 15"
 SDK="iphonesimulator"
 SHELL=/bin/bash -o pipefail
 XCODE_MAJOR_VERSION=$(shell xcodebuild -version | HEAD -n 1 | sed -E 's/Xcode ([0-9]+).*/\1/')
@@ -24,15 +24,14 @@ analyze: install_xcbeautify
 	rm -rf $(shell pwd)/clang
 	
 test: install_xcbeautify
+	# TODO: Fix data races and enable thread sanitizer with '-enableThreadSanitizer YES'
 	xcodebuild clean test -destination ${PLATFORM} -sdk ${SDK} -project PINOperation.xcodeproj -scheme PINOperation \
 	ONLY_ACTIVE_ARCH=NO \
 	CODE_SIGNING_REQUIRED=NO | xcbeautify
 
 spm:
-# For now just check whether we can assemble it
-# TODO: replace it with "swift test --enable-test-discovery --sanitize=thread" when swiftPM resource-related bug would be fixed.
-# https://bugs.swift.org/browse/SR-13560
-	swift build
+	# TODO: Fix data races and enable thread sanitizer with '--sanitize thread'
+	swift test
 
 release-major:
 

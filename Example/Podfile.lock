@@ -1,5 +1,5 @@
 PODS:
-  - ZSPINOperation (1.3.1)
+  - ZSPINOperation (1.3.2)
 
 DEPENDENCIES:
   - ZSPINOperation (from `../`)
@@ -9,8 +9,8 @@ EXTERNAL SOURCES:
     :path: "../"
 
 SPEC CHECKSUMS:
-  ZSPINOperation: 988f490c06b840ee8992d59be4e0ec37c10052c0
+  ZSPINOperation: 094cb092ae7fa378fa09916b3ed18d28b174968c
 
-PODFILE CHECKSUM: fec1a0fa68c127ee53c34b865065bfa6becdabf4
+PODFILE CHECKSUM: e73a52c7e3dcb2b9cc208af15bf7be08778898de
 
-COCOAPODS: 1.12.1
+COCOAPODS: 1.15.2

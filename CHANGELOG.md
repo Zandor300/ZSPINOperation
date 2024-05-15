@@ -1,5 +1,14 @@
 # Changelog
 
+## [1.2.3](https://github.com/Pinterest/PINOperation/tree/1.2.3) (TBD)
+
+[Full Changelog](https://github.com/Pinterest/PINOperation/compare/1.2.2...1.2.3)
+
+
+- Update project to build and run using Xcode 15
+- Update CocoaPods Podspec to include Privacy Manifest file
+- Bump minimum deployment targets to iOS 12, tvOS 12, watchOS 4, and macOS 10.13
+
 ## [1.2.2](https://github.com/Pinterest/PINOperation/tree/1.2.2) (2022-11-28)
 
 [Full Changelog](https://github.com/Pinterest/PINOperation/compare/1.2.1...1.2.2)
