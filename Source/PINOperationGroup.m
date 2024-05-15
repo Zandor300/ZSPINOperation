@@ -7,7 +7,7 @@
 //
 
 #import "PINOperationGroup.h"
-#import <PINOperation/PINOperation.h>
+#import <ZSPINOperation/PINOperation.h>
 #import <pthread.h>
 
 @interface NSNumber (PINGroupOperationQueue) <PINGroupOperationReference>

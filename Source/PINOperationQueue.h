@@ -7,8 +7,8 @@
 //
 
 #import <Foundation/Foundation.h>
-#import <PINOperation/PINOperationTypes.h>
-#import <PINOperation/PINOperationMacros.h>
+#import <ZSPINOperation/PINOperationTypes.h>
+#import <ZSPINOperation/PINOperationMacros.h>
 
 NS_ASSUME_NONNULL_BEGIN
 
